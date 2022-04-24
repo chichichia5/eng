@@ -109,6 +109,19 @@ window.onload = function() {
   function mouseOutGoogleAnalytics() {
     document.getElementById("googleAnalytics-certificate").style.width = "0";
   }
+  // line
+  let view_line_cert = document.getElementById("view-line-cert");
+  let line_certificate = document.getElementById("line-certificate");
+  view_line_cert.onmouseover = function() {mouseOverline()};
+  view_line_cert.onmouseout = function() {mouseOutline()};
+  line_certificate.onmouseover = function() {mouseOverline()};
+  line_certificate.onmouseout = function() {mouseOutline()};
+  function mouseOverline() {
+    document.getElementById("line-certificate").style.width = "130%";
+  }
+  function mouseOutline() {
+    document.getElementById("line-certificate").style.width = "0";
+  }
   // International Trade
   let view_trade_cert = document.getElementById("view-trade-cert");
   let trade_certificate = document.getElementById("trade-certificate");
@@ -122,7 +135,7 @@ window.onload = function() {
   function mouseOuttrade() {
     document.getElementById("trade-certificate").style.width = "0";
   }
-   // Business
+  // Business
   let view_business_cert = document.getElementById("view-business-cert");
   let business_certificate = document.getElementById("business-certificate");
   view_business_cert.onmouseover = function() {mouseOverbusiness()};
@@ -135,6 +148,6 @@ window.onload = function() {
   function mouseOutbusiness() {
     document.getElementById("business-certificate").style.width = "0";
   }
+ 
 
 }
-
