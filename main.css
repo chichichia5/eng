@@ -665,6 +665,37 @@ h3 {
   background-color: #6495ED;
   color:white;
 }
+/* Entrepreneur */
+#entrepreneur-certificate {
+  width: 0%;
+  display: block;
+  margin: auto;
+  box-shadow: 3px 3px 3px #999;
+  transition: width 0.3s 0s ease-in-out; 
+  /* position:absolute;
+  left: 100%;
+  z-index:1;
+  top:0; */
+}
+
+.item #view-entrepreneur-cert {
+  display: block;
+  padding: 10px 10px;
+  border-radius: 5px;
+  height: auto;
+  color: black;
+  background-color: #87CEEB;
+  transition: background-color 0.2s 0 ease;
+  text-align: center;
+  margin:auto;
+  font-size: 1.2vw;
+}
+
+.item #view-entrepreneur-cert:hover {
+  background-color: #6495ED;
+  color:white;
+}
+
 /* Internatioal Trade */
 #trade-certificate {
   width: 0%;
